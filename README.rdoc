@@ -9,9 +9,9 @@ Things you may want to cover:
 * Ruby 2.2.3
 * Rails 4
 
-rails g scaffold ProductType name --skip-stylesheets
-rails g model ProductField name field_type required:boolean product_type:belongs_to
-rails g migration add_type_to_products product_type_id:integer properties:text
-rake db:migrate
+rails g scaffold ProductType name --skip-stylesheets<br/>
+rails g model ProductField name field_type required:boolean product_type:belongs_to<br/>
+rails g migration add_type_to_products product_type_id:integer properties:text<br/>
+rake db:migrate<br/>
 
 
